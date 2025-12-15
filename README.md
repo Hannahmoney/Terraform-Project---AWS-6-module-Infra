@@ -65,16 +65,6 @@ The Terraform version does **not** include these endpoints because the infrastru
 
 Edit `terraform.tfvars` to set your own CIDRs, instance type, AMI ID and bucket name.
 
-You can also pass the EC2 keypair name from the CLI:
-
-```
-terraform apply -var key_name=my_keypair
-```
-
-The keypair must already exist in your AWS account.
-
----
-
 ### 2. Initialise Terraform
 
 ```
