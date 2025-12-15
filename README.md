@@ -1,5 +1,6 @@
 # Terraform Infrastructure Project
 
+This project uses Terraform to provision a complete AWS infrastructure using a modular and easy-to-understand structure. It creates a VPC with public and private subnets, deploys EC2 instances behind an Application Load Balancer with Auto Scaling, and includes an S3 bucket for storage. The setup is designed to reflect a realistic AWS environment while remaining simple enough for learning and reuse.
 Before starting, open your terminal and move into the project root:
 
 ```
